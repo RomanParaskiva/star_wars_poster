@@ -7,6 +7,8 @@
     <title>Сайт фильма "Звездные войны"</title>
     <link rel="stylesheet" href="/styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
 </head>
 <body>
     <div class="container">
@@ -26,9 +28,164 @@
                 <p class="hero__text">Фильм завершает невероятную историю семьи Скайуокеров, длящуюся уже более сорока лет, и обещает дать ответы на все загадки из предыдущих серий. Зрителя ожидают старые и новые герои, уникальные миры, увлекательные путешествия на край Галактики и грандиозный финал фантастической саги</p>
                 <span class="hero__premier">Премьера</span>
                 <span class="hero__date">19 декабря 2019</span>
-                <button class="btn-play hero__btn">смотреть трейлер</button>
+                <a 
+                    class="btn-play hero__btn"
+                    data-fancybox href="https://www.youtube.com/watch?v=OvyJhD5lbOw"
+                    >смотреть трейлер</a>
             </div>
         </main>
+        <div class="episodes">
+            <h2 class="episodes__title">Предыдущие эпизоды</h2>
+            <div class="slider owl-carousel owl-theme">
+                <div class="slider__item">
+                    <div class="slider__year">1977</div>
+                    <div class="h3 slider__title">Эпизод IV:<br>Новая надежда</div>
+                    <div class="slider__rating">
+                        <span class="slider__rating-label">Рейтинг</span>
+                        <span class="slider__rating-stars">
+                            <i class="star"></i>
+                            <i class="star"></i>
+                            <i class="star"></i>
+                            <i class="star"></i>
+                            <i class="star star-o"></i>
+                        </span>
+                    </div>
+                    <img src="/img/Rectangle1.png" alt="" class="slider__image">
+                </div>
+                <div class="slider__item">
+                    <div class="slider__year">1980</div>
+                    <div class="h3 slider__title">Эпизод V:<br>Империя наносит ответный удар</div>
+                    <div class="slider__rating">
+                            <span class="slider__rating-label">Рейтинг</span>
+                            <span class="slider__rating-stars">
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star star-o"></i>
+                            </span>
+                        </div>
+                    <img src="/img/Rectangle2.png" alt="" class="slider__image">
+                </div>
+                <div class="slider__item">
+                    <div class="slider__year">1983</div>
+                    <div class="h3 slider__title">Эпизод VI:<br> Возвращение джедая</div>
+                    <div class="slider__rating">
+                            <span class="slider__rating-label">Рейтинг</span>
+                            <span class="slider__rating-stars">
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star star-o"></i>
+                            </span>
+                        </div>
+                    <img src="/img/Rectangle3.png" alt="" class="slider__image">
+                </div>
+                <div class="slider__item">
+                    <div class="slider__year">1999</div>
+                    <div class="h3 slider__title">Эпизод I:<br>Скрытая угроза</div>
+                    <div class="slider__rating">
+                            <span class="slider__rating-label">Рейтинг</span>
+                            <span class="slider__rating-stars">
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star star-o"></i>
+                            </span>
+                        </div>
+                    <img src="/img/Rectangle4.png" alt="" class="slider__image">
+                </div>
+                <div class="slider__item">
+                    <div class="slider__year">1999</div>
+                    <div class="h3 slider__title">Эпизод I:<br>Скрытая угроза</div>
+                    <div class="slider__rating">
+                            <span class="slider__rating-label">Рейтинг</span>
+                            <span class="slider__rating-stars">
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star star-o"></i>
+                            </span>
+                        </div>
+                    <img src="/img/Rectangle1.png" alt="" class="slider__image">
+                </div>
+                <div class="slider__item">
+                    <div class="slider__year">1999</div>
+                    <div class="h3 slider__title">Эпизод I:<br>Скрытая угроза</div>
+                    <div class="slider__rating">
+                            <span class="slider__rating-label">Рейтинг</span>
+                            <span class="slider__rating-stars">
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star star-o"></i>
+                            </span>
+                        </div>
+                    <img src="/img/Rectangle2.png" alt="" class="slider__image">
+                </div>
+                <div class="slider__item">
+                    <div class="slider__year">1999</div>
+                    <div class="h3 slider__title">Эпизод I:<br>Скрытая угроза</div>
+                    <div class="slider__rating">
+                            <span class="slider__rating-label">Рейтинг</span>
+                            <span class="slider__rating-stars">
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star star-o"></i>
+                            </span>
+                        </div>
+                    <img src="/img/Rectangle2.png" alt="" class="slider__image">
+                </div>
+                <div class="slider__item">
+                    <div class="slider__year">1999</div>
+                    <div class="h3 slider__title">Эпизод I:<br>Скрытая угроза</div>
+                    <div class="slider__rating">
+                            <span class="slider__rating-label">Рейтинг</span>
+                            <span class="slider__rating-stars">
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star star-o"></i>
+                            </span>
+                        </div>
+                    <img src="/img/Rectangle2.png" alt="" class="slider__image">
+                </div>
+            </div>
+        </div>
+        <!-- /.episodes -->
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+               
+                margin:10,
+                nav:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    700:{
+                        items:2
+                    },
+                    900:{
+                        items:3
+                    },
+                    1200:{
+                        items:4
+                    }
+                }
+            })
+            });
+</script>
 </body>
 </html>
