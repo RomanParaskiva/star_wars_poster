@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }    
 body {
-    background: #070506 url(/img/main-bg.png) no-repeat right;
+    background: #000 url(/img/main-bg.png) no-repeat right;
     background-attachment: fixed;
     font-family: "Roboto", sans-serif;
     color: #fff;
